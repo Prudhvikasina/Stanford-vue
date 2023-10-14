@@ -1,0 +1,70 @@
+{
+
+    "Items": [
+        {
+            "TermsOffered": [
+                "Autumn 2023-24 (5740)",
+                "Winter 2023-24 (4578)"
+              ],
+              "ClassStatus": [
+                "Open",
+                "WaitList Only"
+              ],
+              "Class Level": [
+                "Undergraduate (1293)",
+                "Graduate (1993)",
+                "Graduate School of Business (765)",
+                "Law (678)",
+                "Medicine (567)"
+              ],
+              "Grading Basis": [
+                  "Letter (1293)",
+                  "Credit/No Credit (1993)",
+                  "Satisfactory/No Credit(765)",
+                  "Med +/- (678)",
+                  "Law (567)"
+                ],
+                "Academic Departments":[
+
+                ],
+                "Number of Units": [
+                  "1 unit (4937)",
+                  "2 units (3849)",
+                  "3 units (2389)",
+                  "4 units (1124)"
+                ],
+                "Days  Offered": [
+                  "Monday (3467)",
+                  "Tuesday (467)",
+                  "Wednesday (3346)",
+                  "Thursday (876)",
+                  "Friday (978)"
+                ],
+                "Instructor":[
+
+                ],
+                "Format":[
+                  "Lecture (LEC) (348)",
+                  "Seminar (SEM) (547)",
+                  "Discussion Section (DIS) (349)",
+                  "Lab Section (LBS) (847)"
+                ],
+                "General Education":[
+                  "Aesthetic and Interpretive Inquiry (AII) (755)",
+                  "Applied Quantitative Reasoning (AQR) (478)",
+                  "Creative Expression (CE)",
+                  "Ethical Reasoning (ER)"
+                ],
+                "Schools":[
+                  "School of Education (111)",
+                  "Graduate School of Business (745)",
+                  "Humanities and Sciences (846)",
+                  "Doerr School of Sustainability (387)",
+                  "School of Engineering (495)",
+                  "School of Law (387)",
+                  "School of Medicine (387)"
+                ]
+        }
+    ]
+  }
+

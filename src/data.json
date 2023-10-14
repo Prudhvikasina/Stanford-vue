@@ -1,0 +1,237 @@
+
+{
+    "items": [
+      {
+        "Codenumber": "CEE 246",
+        "Lecsection":"Lec Sec 01",
+        "ClassNum":"Class #: 65789",
+        "Venturetext":"Venture Creation for Real Economy",
+        "Mondate": "Mon, Wed, Fri",
+        "Time":"1:30 PM - 2:50 PM",
+        "Location":"Main Quad (01-040)",
+        "NumUnits":"Number of Units: 4",
+        "Instructor":"Instructor: Anderson, J.(PI)",
+        "Grading":"Grading: Letter (ABCD/NP)"
+      },
+      {
+        "Codenumber": "CEE 247",
+        "Lecsection":"Lec Sec 02",
+        "ClassNum":"Class #: 65789",
+        "Venturetext":"Venture Creation for Real Economy",
+        "Mondate": "Mon, Wed, Fri",
+        "Time":"1:30 PM - 2:50 PM",
+        "Location":"Main Quad (01-040)",
+        "NumUnits":"Number of Units: 4",
+        "Instructor":"Instructor: Anderson, J.(PI)",
+        "Grading":"Grading: Letter (ABCD/NP)"
+      },
+      {
+        "Codenumber": "CEE 248",
+        "Lecsection":"Lec Sec 03",
+        "ClassNum":"Class #: 65789",
+        "Venturetext":"Venture Creation for Real Economy",
+        "Mondate": "Mon, Wed, Fri",
+        "Time":"1:30 PM - 2:50 PM",
+        "Location":"Main Quad (01-040)",
+        "NumUnits":"Number of Units: 4",
+        "Instructor":"Instructor: Anderson, J.(PI)",
+        "Grading":"Grading: Letter (ABCD/NP)"
+      }
+      
+    ] ,
+
+    "items1":[
+        {
+            "Codenumber": "CEE 249",
+            "Lecsection":"Lec Sec 04",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 250",
+            "Lecsection":"Lec Sec 05",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          }
+          
+    ],
+    "items2":[
+        {
+            "Codenumber": "CEE 251",
+            "Lecsection":"Lec Sec 06",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 252",
+            "Lecsection":"Lec Sec 07",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          }
+         
+    ],
+    "items3":[
+        {
+            "Codenumber": "CEE 253",
+            "Lecsection":"Lec Sec 06",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 254",
+            "Lecsection":"Lec Sec 07",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 255",
+            "Lecsection":"Lec Sec 07",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 256",
+            "Lecsection":"Lec Sec 07",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          }
+    ],
+
+    "Classenroll": [
+        {
+          "Codenumber": "CEE 246",
+          "Lecsection":"Lec Sec 01",
+          "ClassNum":"Class #: 65789",
+          "Venturetext":"Venture Creation for Real Economy",
+          "Mondate": "Mon, Wed, Fri",
+          "Time":"1:30 PM - 2:50 PM",
+          "Location":"Main Quad (01-040)",
+          "NumUnits":"Number of Units: 4",
+          "Instructor":"Instructor: Anderson, J.(PI)",
+          "Grading":"Grading: Letter (ABCD/NP)"
+        },
+        {
+          "Codenumber": "CEE 247",
+          "Lecsection":"Lec Sec 02",
+          "ClassNum":"Class #: 65789",
+          "Venturetext":"Venture Creation for Real Economy",
+          "Mondate": "Mon, Wed, Fri",
+          "Time":"1:30 PM - 2:50 PM",
+          "Location":"Main Quad (01-040)",
+          "NumUnits":"Number of Units: 4",
+          "Instructor":"Instructor: Anderson, J.(PI)",
+          "Grading":"Grading: Letter (ABCD/NP)"
+        },
+        {
+          "Codenumber": "CEE 248",
+          "Lecsection":"Lec Sec 03",
+          "ClassNum":"Class #: 65789",
+          "Venturetext":"Venture Creation for Real Economy",
+          "Mondate": "Mon, Wed, Fri",
+          "Time":"1:30 PM - 2:50 PM",
+          "Location":"Main Quad (01-040)",
+          "NumUnits":"Number of Units: 4",
+          "Instructor":"Instructor: Anderson, J.(PI)",
+          "Grading":"Grading: Letter (ABCD/NP)"
+        },
+        {
+            "Codenumber": "CEE 249",
+            "Lecsection":"Lec Sec 04",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 250",
+            "Lecsection":"Lec Sec 05",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 251",
+            "Lecsection":"Lec Sec 06",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          },
+          {
+            "Codenumber": "CEE 252",
+            "Lecsection":"Lec Sec 07",
+            "ClassNum":"Class #: 65789",
+            "Venturetext":"Venture Creation for Real Economy",
+            "Mondate": "Mon, Wed, Fri",
+            "Time":"1:30 PM - 2:50 PM",
+            "Location":"Main Quad (01-040)",
+            "NumUnits":"Number of Units: 4",
+            "Instructor":"Instructor: Anderson, J.(PI)",
+            "Grading":"Grading: Letter (ABCD/NP)"
+          }
+      ] 
+  
+}
+  
+ 
