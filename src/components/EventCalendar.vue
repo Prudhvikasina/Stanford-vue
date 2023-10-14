@@ -263,6 +263,20 @@
                             </div>
                         </div>
                     </div>
+
+                    <ul class=" list-items-cal d-flex mt-4" style="margin: auto 400px;">
+                        <li class="nav-item">
+                          <p class="enrolled-cal-text d-flex">Enrolled <img class="ellipse-icons mx-2" src="../assets/Ellipse-1.svg"></p>
+                        </li>
+                        <li class="nav-item">
+                          <p class="enrolled-cal-text d-flex mx-5">Waitlisted <img class="ellipse-icons mx-2"
+                              src="../assets/Ellipse-2.svg"></p>
+                        </li>
+                        <li class="nav-item">
+                          <p class="enrolled-cal-text d-flex mx-4">Planned <img class="ellipse-icons mx-2" src="../assets/Ellipse-3.svg">
+                          </p>
+                        </li>
+                      </ul>
                 </div>
             </div>
         </div>
@@ -270,6 +284,18 @@
 </template>
 
 <style>
+
+    .e-control{
+        min-height: 0px !important;
+    }
+      .enrolled-cal-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
     .Monthtext {
         font-size: 18px;
         font-weight: 600;
@@ -507,14 +533,15 @@
     .schedule-overview.e-schedule .e-timeline-month-view .e-header-cells {
         padding: 0;
         text-align: center !important;
+        font-size: 16px !important;
     }
 
     .schedule-overview.e-schedule .date-text {
-        font-size: 14px;
+        font-size: 16px !important;
     }
 
     .schedule-overview.e-schedule.e-device .date-text {
-        font-size: 12px;
+        font-size: 16px !important;
     }
 
     .schedule-overview.e-schedule .weather-image {
@@ -617,6 +644,8 @@
         border-style: solid;
         border-width: 0 1px 1px 0;
         border: none;
+        font-weight: 600;
+        font-size: 16px !important;
     }
 
     .e-toolbar {
@@ -629,6 +658,34 @@
     .e-toolbar .e-toolbar-items {
         background: #fff;
     }
+    .e-appointment{
+        background-color: #F4F4F4 !important;
+        border-left: 7px solid #8F993E !important;
+        color: black !important;
+    width: 93%;
+    height: 90px !important;
+    top: 720px;
+    left: 0%;
+    font-size: 19px !important;
+}
+/* .e-toolbar-item{
+float: end !important;
+} */
+/* .e-toolbar-item{
+    margin-left: 240px !important; 
+} */
+.e-all-day-cells{
+    height: 0px !important;
+}
+.e-header-cells{
+    height: 0px !important;
+}
+.e-resource-cells{
+    display: none;
+}
+.e-subject{
+    font-size: 16px !important;
+}
 </style>
 
 <script>
@@ -986,6 +1043,7 @@
             generateEvents: function () {
                 const eventData = [];
                 const eventSubjects = [
+                   'CODE 000 ', 'CODE 000 ', 'CODE 000 ', 'CODE 000 ', 'CODE 000 ', 'CODE 000 ', 'CODE 000 ', 'CODE 000 ',
                     'Bering Sea Gold', 'Technology', 'Maintenance', 'Meeting', 'Travelling', 'Annual Conference', 'Birthday Celebration',
                     'Farewell Celebration', 'Wedding Anniversary', 'Alaska: The Last Frontier', 'Deadliest Catch', 'Sports Day', 'MoonShiners',
                     'Close Encounters', 'HighWay Thru Hell', 'Daily Planet', 'Cash Cab', 'Basketball Practice', 'Rugby Match', 'Guitar Class',

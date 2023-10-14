@@ -783,7 +783,7 @@
 
 
 
-    <ul class=" list-items-cal d-flex mt-4" style="margin: auto 400px;">
+    <!-- <ul class=" list-items-cal d-flex mt-4" style="margin: auto 400px;">
       <li class="nav-item">
         <p class="enrolled-cal-text d-flex">Enrolled <img class="ellipse-icons mx-2" src="../assets/Ellipse-1.svg"></p>
       </li>
@@ -795,7 +795,7 @@
         <p class="enrolled-cal-text d-flex mx-4">Planned <img class="ellipse-icons mx-2" src="../assets/Ellipse-3.svg">
         </p>
       </li>
-    </ul>
+    </ul> -->
 
 
     <div class="row">

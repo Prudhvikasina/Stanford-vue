@@ -8,6 +8,7 @@
       <div class="accordion-content" :class="{ 'active': item.open }">{{ item.content }}</div>
     </div>
   </div>
+  
 </template>
 
 <script>

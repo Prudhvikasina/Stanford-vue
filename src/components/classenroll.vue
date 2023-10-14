@@ -135,7 +135,40 @@
                         </div>
                     </button>
                 </div>
-                <div class="panel mt-2 p-4 box shadow">
+
+                <div class="panel mt-2 p-4" v-for="item in jsonData.items" :key="item.id">
+                    <div class="row">
+                      <div class="col-sm-9">
+                        <p class="CEE-text1">{{item.Winter}} </p>
+                        <p><span class="number-units-text">{{item.ClassNum1}}</span> </p>
+                        <p><span class="number-units-text">{{item.Mode}}</span></p>
+                        <p class="CEE-text1">{{item.CourseDescription}}</p>
+                        <p class="Accordion-downtext">{{item.TotalDesc}}</p>
+                        <p class="Accordion-downtext"><span class="CEE-text1">{{item.Classnotes}}</span> </p>
+                        <p class="Accordion-downtext"><span class="CEE-text1">{{item.Consent}}</span> </p>
+                        <p class="Accordion-downtext"><span class="CEE-text1">{{item.Repeatability}}</span> </p>
+                        <button class="show-text-btn mt-5">Show Textbooks</button>
+                      </div>
+                      <div class="col-md-3">
+                        <p class="CEE-text1">{{item.Grading2}}</p>
+                        <p class="Accordion-downtext">{{item.Letter}}</p>
+                        <p class="CEE-text1">{{item.AcademicCareer}}</p>
+                        <p class="Accordion-downtext">{{item.Graduate}}</p>
+                        <p class="CEE-text1">{{item.ClassAttributes}}</p>
+                        <p class="Accordion-downtext">{{item.WAYS}}</p>
+                        <p class="Accordion-downtext">{{item.WAYS1}}</p>
+                        <p class="CEE-text1">{{item.Requisites}}</p>
+                        <p class="Accordion-downtext">{{item.Naan}}</p>
+                      </div>
+                    </div>
+                    <div class="opened-accordion d-flex">
+                      <a class="Adjust-related-text mx-2">Adjust Related Course</a>
+                      <a class="Adjust-related-text mx-2">Adjust Variable Options</a>
+                      <button class="withdraw-btn btn">Withdraw</button>
+                    </div>
+                  </div>
+          
+                <!-- <div class="panel mt-2 p-4 box shadow">
                     <div class="row">
                      <div class="col-sm-9">
                        <p class="CEE-text1">2022-23 Winter </p>
@@ -169,7 +202,7 @@
                      <a class="Adjust-related-text mx-2">Adjust Variable Options</a>
                      <button class="withdraw-btn btn">Withdraw</button>
                     </div>
-                   </div>
+                   </div> -->
                 <div class="text-center">
                     <div class="col-md-5">
                         <div class="pagination mt-4">
