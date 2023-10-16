@@ -103,71 +103,72 @@
 
                 <div class="mt-3" v-for="item in jsonDatas.Classenroll" :key="item.id">
                     <button class="accordion mt-2 CEE-text1 box shadow">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                {{item.Codenumber}}<br>
-                                <span class="CEE-lec">{{item.Lecsection}}<br>
-                                    {{item.ClassNum}}</span>
-                            </div>
-                            <div class="col-sm-3">
-                                <p>{{item.Venturetext}}</p>
-                                <p class="CEE-lec d-flex"><img class="p-1" src="../assets/calendar.svg">{{item.Mondate}}
-                                </p>
-                                <p class="CEE-lec d-flex"><img class="p-1" src="../assets/clock.svg"> {{item.Time}}</p>
-                                <p class="CEE-lec d-flex"> <img class="p-1"
-                                        src="../assets/location.svg">{{item.Location}}</p>
-                            </div>
-                            <div class="col-sm-4 mt-5">
-                                <!-- <p class="CEE-lec"><span class="number-units-text">{{item.NumUnits}} </span> </p> -->
-                                <p class="CEE-lec">
-                                    <span class="number-units-text">
-                                        {{item.NumUnits}} <span class="units-value">{{ item.NumUnits.split(' ')[3] }}</span>
-                                    </span>
-                                  </p>
-                                <p class="CEE-lec"><span class="number-units-text">{{item.Instructor}}</span> </p>
-                            </div>
-                            <div class="col-sm-2 text-end">
-                                <p class="winter-text-1" style="color:#50557B">Winter 2024</p>
-                                <p class="open-text" style="color:#A4AC62">Open</p>
-                                <p class="view-details-btn text-center d-flex">View details <img class="mx-1"
-                                        src="../assets/Icon (stroke).svg"></p>
-                            </div>
-                        </div>
-                    </button>
-                </div>
-
-                <div class="panel mt-2 p-4" v-for="item in jsonData.items" :key="item.id">
                     <div class="row">
-                      <div class="col-sm-9">
-                        <p class="CEE-text1">{{item.Winter}} </p>
-                        <p><span class="number-units-text">{{item.ClassNum1}}</span> </p>
-                        <p><span class="number-units-text">{{item.Mode}}</span></p>
-                        <p class="CEE-text1">{{item.CourseDescription}}</p>
-                        <p class="Accordion-downtext">{{item.TotalDesc}}</p>
-                        <p class="Accordion-downtext"><span class="CEE-text1">{{item.Classnotes}}</span> </p>
-                        <p class="Accordion-downtext"><span class="CEE-text1">{{item.Consent}}</span> </p>
-                        <p class="Accordion-downtext"><span class="CEE-text1">{{item.Repeatability}}</span> </p>
-                        <button class="show-text-btn mt-5">Show Textbooks</button>
-                      </div>
-                      <div class="col-md-3">
-                        <p class="CEE-text1">{{item.Grading2}}</p>
-                        <p class="Accordion-downtext">{{item.Letter}}</p>
-                        <p class="CEE-text1">{{item.AcademicCareer}}</p>
-                        <p class="Accordion-downtext">{{item.Graduate}}</p>
-                        <p class="CEE-text1">{{item.ClassAttributes}}</p>
-                        <p class="Accordion-downtext">{{item.WAYS}}</p>
-                        <p class="Accordion-downtext">{{item.WAYS1}}</p>
-                        <p class="CEE-text1">{{item.Requisites}}</p>
-                        <p class="Accordion-downtext">{{item.Naan}}</p>
+                    <div class="col-sm-3">
+                    {{item.Codenumber}}<br>
+                    <span class="CEE-lec">{{item.Lecsection}}<br>
+                    {{item.ClassNum}}</span>
+                    </div>
+                    <div class="col-sm-3">
+                    <p>{{item.Venturetext}}</p>
+                    <p class="CEE-lec d-flex"><img class="p-1" src="../assets/calendar.svg">{{item.Mondate}}
+                    </p>
+                    <p class="CEE-lec d-flex"><img class="p-1" src="../assets/clock.svg"> {{item.Time}}</p>
+                    <p class="CEE-lec d-flex"> <img class="p-1"
+                    src="../assets/location.svg">{{item.Location}}</p>
+                    </div>
+                    <div class="col-sm-4 mt-5">
+                    <!-- <p class="CEE-lec"><span class="number-units-text">{{item.NumUnits}} </span> </p> -->
+                    <p class="CEE-lec">
+                    <span class="number-units-text">
+                    {{item.NumUnits}} <span class="units-value">{{ item.NumUnits.split(' ')[3] }}</span>
+                    </span>
+                    </p>
+                    <p class="CEE-lec"><span class="number-units-text">{{item.Instructor}}</span> </p>
+                    </div>
+                    <div class="col-sm-2 text-end">
+                    <p class="winter-text-1" style="color:#50557B">Winter 2024</p>
+                    <p class="open-text" style="color:#A4AC62">Open</p>
+                    <p class="view-details-btn text-center d-flex">View details <img class="mx-1"
+                    src="../assets/Icon (stroke).svg"></p>
+                    </div>
+                    </div>
+                    </button>
+                   
+                    <div class="panel mt-2 p-4 box shadow">
+                        <div class="row">
+                          <div class="col-sm-9">
+                            <p class="CEE-text1">{{item.Winter}} </p>
+                            <p><span class="number-units-text">{{item.ClassNum1}}</span> </p>
+                            <p><span class="number-units-text">{{item.Mode}}</span></p>
+                            <p class="CEE-text1">{{item.CourseDescription}}</p>
+                            <p class="Accordion-downtext">{{item.TotalDesc}}</p>
+                            <p class="Accordion-downtext"><span class="CEE-text1">{{item.Classnotes}}</span> </p>
+                            <p class="Accordion-downtext"><span class="CEE-text1">{{item.Consent}}</span> </p>
+                            <p class="Accordion-downtext"><span class="CEE-text1">{{item.Repeatability}}</span> </p>
+                            <button class="show-text-btn mt-5">Show Textbooks</button>
+                          </div>
+                          <div class="col-md-3">
+                            <p class="CEE-text1">{{item.Grading2}}</p>
+                            <p class="Accordion-downtext">{{item.Letter}}</p>
+                            <p class="CEE-text1">{{item.AcademicCareer}}</p>
+                            <p class="Accordion-downtext">{{item.Graduate}}</p>
+                            <p class="CEE-text1">{{item.ClassAttributes}}</p>
+                            <p class="Accordion-downtext">{{item.WAYS}}</p>
+                            <p class="Accordion-downtext">{{item.WAYS1}}</p>
+                            <p class="CEE-text1">{{item.Requisites}}</p>
+                            <p class="Accordion-downtext">{{item.Naan}}</p>
+                          </div>
+                        </div>
+                        <div class="opened-accordion d-flex">
+                          <a class="Adjust-related-text mx-2">Adjust Related Course</a>
+                          <a class="Adjust-related-text mx-2">Adjust Variable Options</a>
+                          <button class="withdraw-btn btn">Withdraw</button>
+                        </div>
                       </div>
                     </div>
-                    <div class="opened-accordion d-flex">
-                      <a class="Adjust-related-text mx-2">Adjust Related Course</a>
-                      <a class="Adjust-related-text mx-2">Adjust Variable Options</a>
-                      <button class="withdraw-btn btn">Withdraw</button>
-                    </div>
-                  </div>
-          
+
+                 
                 <!-- <div class="panel mt-2 p-4 box shadow">
                     <div class="row">
                      <div class="col-sm-9">
@@ -360,6 +361,28 @@
 </script>
 
 <style scoped>
+      .show-text-btn {
+    border: 1px solid #006B81;
+    border-radius: 5px;
+    color: #006B81;
+    padding: 7px;
+
+  }
+
+      .withdraw-btn {
+    background-color: #007C92;
+    color: white;
+  }
+
+  .Adjust-related-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
+      .opened-accordion {
+    float: right;
+    margin-top: -36px;
+  }
+
     .modal-enter-active,
     .modal-leave-active {
         transition: translate 0.5s ease;

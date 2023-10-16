@@ -64,6 +64,29 @@
                   "School of Law (387)",
                   "School of Medicine (387)"
                 ]
+                
+        }
+        
+    ],
+    "Down":[
+        {
+            "Winter":"2022-23 Winter ",
+                "ClassNum1":"Class #: 65789",
+                "Mode":"Mode: In Person",
+                "CourseDescription":"Course Description",
+                "TotalDesc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "Classnotes":"Class Notes: Formal Reasoning (FR). Applied Quantitative Reasoning (AQR) " ,
+                "Consent" :"Consent: No special consent required",
+                "Repeatability":"Repeatability: N/A",
+                "Grading2":"Grading",
+                "Letter":"Letter (ABCD/NP)",
+                "AcademicCareer":"Academic Career",
+                "Graduate":"Graduate",
+                "ClassAttributes":"Class Attributes",
+                "WAYS":"WAYS – AQR",
+                "WAYS1":"WAY - SMA",
+                "Requisites":"Requisites",
+                "Naan":"N/A"
         }
     ]
   }

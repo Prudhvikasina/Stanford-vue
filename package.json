@@ -29,6 +29,7 @@
     "@popperjs/core": "^2.11.6",
     "@syncfusion/ej2-vue-buttons": "^23.1.39",
     "@syncfusion/ej2-vue-calendars": "^23.1.40",
+    "@syncfusion/ej2-vue-dropdowns": "^23.1.40",
     "@syncfusion/ej2-vue-inputs": "^23.1.40",
     "@syncfusion/ej2-vue-navigations": "^23.1.40",
     "@syncfusion/ej2-vue-schedule": "^23.1.39",
